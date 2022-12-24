@@ -4,6 +4,6 @@
 
 <h4>Preview do game logo abaixo</h4>
 
-<link href="https://flappybird-risadinha.netlify.app/">
+<link href="https://flappybird-risadinha.netlify.app/" Flappy Bird Game>
 
-
+<footer>Jogo Feito por Davi Alexandre, Com Base no Projeto do Canal Mario Souto</footer>
