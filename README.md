@@ -4,6 +4,6 @@
 
 <h4>Preview do game logo abaixo</h4>
 
-<link href="https://flappybird-risadinha.netlify.app/"</link>
+<link href="https://flappybird-risadinha.netlify.app/">
 
 
