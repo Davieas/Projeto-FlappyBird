@@ -1,0 +1,20 @@
+{
+  "name": "projeto-flappybird",
+  "version": "1.0.0",
+  "description": "<h1>Clone Do Jogo Flappy Bird totalmente feito em JavaScript</h1>",
+  "main": "jogo.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davieas/Projeto-FlappyBird.git"
+  },
+  "author": "Davi Alexandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davieas/Projeto-FlappyBird/issues"
+  },
+  "homepage": "https://github.com/Davieas/Projeto-FlappyBird#readme"
+}

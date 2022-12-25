@@ -101,16 +101,16 @@ function criaFlappyBird() {
     y: 50,
     pulo: 4.6,
     pula() {
-      console.log('devo pular');
-      console.log('[antes]', flappyBird.velocidade);
+      //console.log('devo pular');
+      //console.log('[antes]', flappyBird.velocidade);
       flappyBird.velocidade =  - flappyBird.pulo;
-      console.log('[depois]', flappyBird.velocidade);
+      //console.log('[depois]', flappyBird.velocidade);
     },
     gravidade: 0.25,
     velocidade: 0,
     atualiza() {
       if(fazColisao(flappyBird, globais.chao)) {
-        console.log('Fez colisao');
+        //console.log('Fez colisao');
         som_HIT.play();
 
         mudaParaTela(Telas.GAME_OVER);
@@ -315,11 +315,11 @@ function criaPlacar() {
 
       if(passouOIntervalo) {
         placar.pontuacao = placar.pontuacao + 1;
+        }
       }
     }
-  }
   return placar;
-}
+  }
 
 
 // 
@@ -394,12 +394,15 @@ Telas.GAME_OVER = {
 
 function loop() {
 
+
   telaAtiva.desenha();
   telaAtiva.atualiza();
 
   frames = frames + 1;
   requestAnimationFrame(loop);
 }
+
+
 
 
 window.addEventListener('click', function() {
